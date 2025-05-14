@@ -1,6 +1,7 @@
 export const Footer = () => {
     return (
         <footer>
+            <div></div>
             <section>logo</section>
             <section>
                 <div>Doormat Navigation</div>
@@ -48,6 +49,7 @@ export const Footer = () => {
                     </li>
                 </ul>
             </section>
+            <div></div>
         </footer>
     );
 };

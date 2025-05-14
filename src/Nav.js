@@ -1,6 +1,7 @@
 export const Nav = () => {
     return (
-        <nav>
+        <nav className="parent">
+            <div></div>
             <img src="/images/logo.svg" alt="Little Lemon logo" />
             <ul>
                 <li>
@@ -22,6 +23,7 @@ export const Nav = () => {
                     <a href="#">Login</a>
                 </li>
             </ul>
+            <div></div>
         </nav>
     );
 };

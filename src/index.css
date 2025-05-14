@@ -7,9 +7,90 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-        monospace;
+nav,
+.hero,
+.highlights,
+.testimonials,
+.about,
+footer {
+    margin: auto;
+    width: 1440px;
+    display: grid;
+    grid-column-gap: 20px;
+    padding: 10px;
+}
+
+nav {
+    grid-template-columns: 2fr 2fr 6fr 2fr;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.hero {
+    grid-template-columns: 2fr 4fr 4fr 2fr;
+}
+
+/*
+.hero .content {
+    padding: 20px;
+}
+*/
+
+.hero .image {
+    text-align: right;
+    margin: auto;
+}
+
+.highlights {
+    grid-template-columns: 2fr 8fr 2fr;
+}
+
+.highlights .header-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.highlights .special-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    justify-content: space-evenly;
+}
+
+.special-left {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.special-center {
+    margin: auto;
+}
+
+.special-right {
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.testimonials {
+    grid-template-columns: 2fr 8fr 2fr;
+}
+
+.testimonial-row {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-column-gap: 20px;
+}
+
+.about {
+    grid-template-columns: 2fr 4fr 4fr 2fr;
+}
+
+footer {
+    grid-template-columns: repeat(6, 2fr);
 }
 
 .primary-dark {
