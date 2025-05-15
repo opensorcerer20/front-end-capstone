@@ -2,7 +2,9 @@ export const Footer = () => {
     return (
         <footer>
             <div></div>
-            <section>logo</section>
+            <section>
+                <img src="/images/footer.png" alt="Little Lemon" />
+            </section>
             <section>
                 <div>Doormat Navigation</div>
                 <ul>
